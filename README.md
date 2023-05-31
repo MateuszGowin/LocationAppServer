@@ -18,19 +18,19 @@ Location app REST API
 
 #### Authenticate user
 
-  POST /api/auth/signin
+    POST /api/auth/signin
 
 #### Reset password
 
-  POST /api/auth/resetPassword
+    POST /api/auth/resetPassword
 
 #### Get list of all places
 
-  GET /place/all
-  
+    GET /place/all
+
 #### Get list of all places in radius
 
-  GET /place/allNearbyPlaces/{latitude}/{longitude}/{radius}
+    GET /place/allNearbyPlaces/{latitude}/{longitude}/{radius}
   
 | Parameter | Type     |
 | :-------- | :------- |
@@ -40,7 +40,7 @@ Location app REST API
 
 #### Get list opinions for place
 
-  GET /place/{placeId}/opinions
+    GET /place/{placeId}/opinions
 
 | Parameter | Type     |
 | :-------- | :------- |
@@ -48,6 +48,6 @@ Location app REST API
 
 #### Add new opinion
 
-  POST /opinion
+    POST /opinion
 
 
